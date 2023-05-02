@@ -1,0 +1,167 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Inter:wght@200;300;400;500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h2, h3, h4,form button{
+    font-family: 'Bruno Ace', cursive;
+    color: rgb(22, 122, 13);
+    font-weight: normal;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    padding: 16px 0;
+    background-color: greenyellow;
+    font-family: 'Bruno Ace', cursive;
+}
+
+header h1{
+    color: rgb(22, 122, 13);
+}
+
+header li {
+    display: inline;
+    margin-left: 10px;    
+}
+
+header li a {
+    text-decoration: none;
+    color: rgb(22, 122, 13);
+
+}
+
+header li a:hover{
+    color: rgb(68, 194, 57);
+
+}
+
+#us .quem-somos h2, p {
+    text-align: center;
+}
+
+#us .quem-somos h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#us .quem-somos, p {
+    margin-bottom: 10px;
+}
+
+.courts {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links li {
+    display: inline-flex;
+    margin-right: 8px;
+}
+
+.social-links img {
+    height: 24px;
+
+}
+
+form{
+    margin-top: 10px;
+    background-color: beige;
+    
+}
+
+form input, form textarea {
+    border: 2px solid green;
+}
+
+form textarea{
+    height: 180px;
+    resize: none;
+   
+}
+
+form button{
+    background-color: rgb(22, 122, 13);
+    
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:  rgb(68, 194, 57);
+}
+
+input:focus, textarea:focus {
+    outline-color:rgb(22, 122, 13);
+}
+
+.contato {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+footer {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: yellowgreen;
+    color:rgb(22, 122, 13 ;
+}
+
